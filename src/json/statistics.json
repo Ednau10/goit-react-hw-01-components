@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "label": "Followers",
+    "quantity": 1000
+  },
+  {
+    "id": 2,
+    "label": "Views",
+    "quantity": 2000
+  },
+  {
+    "id": 3,
+    "label": "Likes",
+    "quantity": 3000
+  }
+]
