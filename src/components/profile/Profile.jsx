@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Container } from './Profile.styled';
-import user from '../../json/user.json';
+
 
 const Profile = ({ user }) => {
   const { username, tag, location, avatar, stats } = user;
