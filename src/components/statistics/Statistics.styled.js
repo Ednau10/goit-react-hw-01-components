@@ -3,8 +3,10 @@ import styled from 'styled-components';
 export const Container = styled.section`
   background-color: #f3f3f3;
   max-width:300px;
-  padding: 20px;
+  padding: 10px;
   margin: 10px;
+
+  border: 1px solid #cac0c0;
 `;
 
 export const Title = styled.h2`
@@ -39,6 +41,6 @@ export const Label = styled.span`
 
 export const Percentage = styled.span`
   font-weight: bold;
-  
+  color:white;
   color: ${({ color }) => color};
 `;
