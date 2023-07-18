@@ -13,6 +13,7 @@ const FriendList = ({ friends }) => {
   );
 };
 
+
 FriendList.propTypes = {
   friends: PropTypes.arrayOf(
     PropTypes.shape({

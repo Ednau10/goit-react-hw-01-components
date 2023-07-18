@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+
 export const Table = styled.table`
   margin: 10px;
   max-width: 320px;
