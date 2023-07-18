@@ -1,14 +1,13 @@
 import React from 'react';
-import Profile from './Profile';
-import Statistics from './Statistics';
-import FriendList from './FriendList';
-import TransactionHistory from './TransactionHistory';
-import user from '../json/user';
-import data from '../json/data';
+import Profile from './profile/Profile';
+import Statistics from './statistics/Statistics';
+import FriendList from './friends/FriendList';
+import TransactionHistory from './transactions/TransactionHistory';
+import user from '../json/user.json';
+import data from '../json/data.json';
 import friends from '../json/friends.json';
 import transactions from '../json/transactions.json';
 
-/* Renderiza los componentes */
 const App = () => {
   return (
     <>
@@ -21,3 +20,4 @@ const App = () => {
 };
 
 export default App;
+

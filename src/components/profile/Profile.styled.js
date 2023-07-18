@@ -61,7 +61,7 @@ export const Container = styled.div`
     list-style: none;
     height: 100px;
     display: flex;
-    aling-content: center;
+    align-content: center;
     justify-content: space-around;
     background-color: #dfd8d8;
     border-color: rgb(61, 60, 60);
@@ -77,7 +77,7 @@ export const Container = styled.div`
 
   .quantity {
     font-weight: bold;
-    pading: 10px;
+    padding: 10px;
     margin: 5px;
   }
 `;

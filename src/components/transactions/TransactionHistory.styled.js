@@ -14,7 +14,9 @@ export const TableHead = styled.thead`
   // text-transform: uppercase; /* Transformación de texto a mayúsculas en las celdas de la tabla */
 `;
 
-export const TableBody = styled.tbody``;
+export const TableBody = styled.tbody`
+color: gray; /* Color del texto de las celdas de la tabla */
+`;
 
 export const TableRow = styled.tr`
   &:nth-child(even) {
@@ -24,6 +26,4 @@ export const TableRow = styled.tr`
 
 export const TableCell = styled.td`
   padding: 8px;
-
-  color: gray; /* Color del texto de las celdas de la tabla */
 `;
