@@ -8,7 +8,6 @@ export const Container = styled.div`
   border-radius: 25px;
   transform: perspective(10px);
   box-shadow: -1px -3px 6px rgba(0, 0, 0, 0.2);
-
   width: 300px;
   max-width: 300px;
   min-height: 0;
@@ -20,7 +19,6 @@ export const Container = styled.div`
   grid-template-columns: 1fr 1fr;
   grid-auto-columns: 1fr;
   grid-auto-flow: column;
-  text-decoration: underline;
   display: block;
 
   .avatar {
@@ -37,7 +35,6 @@ export const Container = styled.div`
     font-size: 10px;
     font-weight: bold;
     margin-bottom: 5px;
-    text-decoration: none;
     white-space: normal;
     font-weight: bold;
     display: inline;
