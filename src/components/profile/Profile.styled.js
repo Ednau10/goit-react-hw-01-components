@@ -59,11 +59,12 @@ export const Container = styled.div`
     height: 100px;
     display: flex;
     align-content: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: #dfd8d8;
     border-color: rgb(61, 60, 60);
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
+    border: 1px solid #cac0c0;
   }
 
   .label {
@@ -76,5 +77,10 @@ export const Container = styled.div`
     font-weight: bold;
     padding: 10px;
     margin: 5px;
+  }
+
+  li{
+    padding:10px;
+    
   }
 `;

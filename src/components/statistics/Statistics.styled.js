@@ -32,9 +32,13 @@ background-color: ${({ color }) => color};
 
 export const Label = styled.span`
   font-weight: bold;
+  font-size:12px;
+  padding-bottom:10px;
+  color:white;
 `;
 
 export const Percentage = styled.span`
   font-weight: bold;
+  
   color: ${({ color }) => color};
 `;
